@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class LayoutParser {
 
     public Layout parseLayout(String layoutName, String yamlFile) {
-        Layout layout = parseAndMergeLayouts(yamlFile).getOrDefault(layoutName, null);
+        Layout layout = parseLayouts(yamlFile).getOrDefault(layoutName, null);
         if(Objects.nonNull(layout)) {
             return layout;
         } else {
