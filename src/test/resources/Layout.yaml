@@ -1,0 +1,30 @@
+name: login
+sections:  
+  - name: Main
+    locators:
+      - name: username
+        web: //myxpath
+        mobile: //mobile
+      - name: password
+        web: //webuser
+        ios: //iosuser
+        android: //androiduser
+      - name: signin
+        web: //webuser
+        ios: //iosuser
+        android: //androiduser
+      - name: iframe#1
+        web: //iframe
+  - name: MyAppFrame
+    locators:
+      - name: button
+        web: //button
+  - name: Footer
+    locators:
+      - name: footerNotes
+        web: "#webuser"
+        ios: //iosuser
+        android: //androiduser
+
+
+

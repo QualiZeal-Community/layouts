@@ -1,0 +1,7 @@
+name: login
+sections:
+  - id: Main
+    locators:
+      - name: username
+        web: //myxpath
+        mobile: //mobile
