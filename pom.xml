@@ -6,7 +6,7 @@
 
     <groupId>com.qualizeal.community</groupId>
     <artifactId>layouts</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>Layouts</name>
     <description>Better page objects with yaml</description>
