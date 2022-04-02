@@ -1,0 +1,16 @@
+---
+name: login
+sections:
+  - name: Main
+    locators:
+      - name: username
+        web: //myxpath
+        mobile: //mobile
+---
+name: homePage
+sections:
+  - name: Main
+    locators:
+      - name: username
+        web: //myxpath
+        mobile: //mobile
